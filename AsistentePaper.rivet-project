@@ -156,9 +156,9 @@ data:
 
               Analiza el tema : {{tema}}.
 
-              Simula una breve discusion sobre el {{tema}} con el {{autor1}} y a continuacion de esta discusion y teniendo en cuenta los pasos que definiste y los dos ejemplos, escribe un ensayo sobre el tema principal {{tema}}.
+              Simula una breve discusion sobre el {{tema}} con el {{autor1}} y a continuacion de esta discusion y teniendo en cuenta los pasos que definiste y los dos ejemplos, escribe tu propio ensayo sobre el tema principal {{tema}}.
 
-              Para reescribir el ensayo ten encuenta tu propio punto de vista y las diferencias con {{autor1}}
+              Para escribir tu ptopio ensayo ten encuenta tu propio punto de vista y las diferencias con {{autor1}}
           outgoingConnections:
             - output->"Segundo paso ensayo" c2IWxk0xW9eKFSNieZYYS/prompt
           visualData: 542.8254814851157/718.1295157790242/330/75//
