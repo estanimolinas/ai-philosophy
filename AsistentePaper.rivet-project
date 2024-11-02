@@ -105,6 +105,7 @@ data:
             useAsGraphPartialOutput: false
             useErrorOutput: false
           outgoingConnections:
+            - output->"InstruccionEnsayo2" Q3L2bKX1yKN54p4oyAwF6/autor1
             - output->"Pimer paso ensayo" FaTuOSi3nV8bmPVBCIyNZ/systemPrompt
           visualData: 115.95551989810482/236.34526376039216/330/60/var(--node-color-1)/var(--node-color-1)
         '[FaTuOSi3nV8bmPVBCIyNZ]:chat "Pimer paso ensayo"':
@@ -155,7 +156,7 @@ data:
 
               Analiza el tema : {{tema}}.
 
-              Finalmente y teniendo en cuenta los pasos que definiste y los dos ejemplos que hiciste, scribe un ensayo sobre el tema principal {{tema}}.
+              Simula una breve discusion sobre el {{tema}} con el {{autor1}} y a continuacion de esta discusion y teniendo en cuenta los pasos que definiste y los dos ejemplos, escribe un ensayo sobre el tema principal {{tema}}.
           outgoingConnections:
             - output->"Segundo paso ensayo" c2IWxk0xW9eKFSNieZYYS/prompt
           visualData: 542.8254814851157/718.1295157790242/330/75//
@@ -208,6 +209,7 @@ data:
             prompt: Cual es el tema?
             useInput: false
           outgoingConnections:
+            - output->"InstruccionEnsayo2" Q3L2bKX1yKN54p4oyAwF6/tema
             - output->"InstruccionPaso1" UvuYH0tOkH7gECXtr-ZXc/tema
           visualData: -308.16956851409947/552.0987136876663/280/59/var(--node-color-4)/var(--node-color-4)
         '[m8ZC_BLSejukyReadjpoP]:userInput "Autor1"':
